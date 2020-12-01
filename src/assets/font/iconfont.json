@@ -1,0 +1,156 @@
+{
+  "id": "2123346",
+  "name": "开放平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12648423",
+      "name": "减号",
+      "font_class": "jianhao",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "14153374",
+      "name": "添加",
+      "font_class": "-tainjia",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "2817191",
+      "name": "上",
+      "font_class": "zuofanye",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "13939717",
+      "name": "加号",
+      "font_class": "hao",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "3305903",
+      "name": "右箭头",
+      "font_class": "arrow-right",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2509302",
+      "name": "账单",
+      "font_class": "zhangdan",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "15813350",
+      "name": "感叹号",
+      "font_class": "gantanhao1",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "7502334",
+      "name": "fuxuankuang",
+      "font_class": "icon_fuxuan_weixuanz",
+      "unicode": "e7c1",
+      "unicode_decimal": 59329
+    },
+    {
+      "icon_id": "17455446",
+      "name": "复选框 选中",
+      "font_class": "fuxuankuangxuanzhong",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "485845",
+      "name": "1-",
+      "font_class": "1",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "485847",
+      "name": "2-",
+      "font_class": "2",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "696139",
+      "name": "数字-2",
+      "font_class": "shuzi2-copy",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4036709",
+      "name": "数字1",
+      "font_class": "icon-test",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "9114380",
+      "name": "33左侧",
+      "font_class": "zuoce",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "792473",
+      "name": "circle-2-圆圈",
+      "font_class": "circle2yuanquan",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "792472",
+      "name": "circle-圆圈",
+      "font_class": "circleyuanquan",
+      "unicode": "e71e",
+      "unicode_decimal": 59166
+    },
+    {
+      "icon_id": "936705",
+      "name": "感叹号",
+      "font_class": "gantanhao",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "584016",
+      "name": "问号",
+      "font_class": "iconfontquestion",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "2045811",
+      "name": "车道控制机机",
+      "font_class": "chedaokongzhijiji",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "3185528",
+      "name": "问好",
+      "font_class": "wenhao",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1546595",
+      "name": "下拉",
+      "font_class": "xiala2",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    }
+  ]
+}
