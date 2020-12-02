@@ -20,6 +20,10 @@
         <el-button @click="$store.commit('add')">vuex中加</el-button>
         <el-button @click="$store.commit('reduce')">vuex中减</el-button>
         {{$store.state.count}}
+        <el-button @click="hebing">e6合并</el-button>
+        <el-button @click="jiegou">e6解构</el-button>
+        <div class="beijing">4545</div>
+        <h1>3434</h1>
     </div>
 </template>
 
@@ -30,6 +34,12 @@
         name: "tuozhuai",
         data(){
             return{
+                array:[1,2,3,45,6],
+                number:{
+                    name:1,
+                    age:2,
+                    sex:3,
+                },
                 status:false,
                 sysAppIds:'111111111111111',
                 list:[
@@ -57,6 +67,13 @@
             }
         },
        methods:{
+           hebing(){
+             console.log(this.array.includes(45));
+           },
+           jiegou(){
+             let {name,age} = this.number;
+             console.log(name,age);
+           },
            change(){
                this.status = !this.status;
                this.main(this.h);
@@ -141,5 +158,19 @@
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s;
         cursor: pointer;
+    }
+
+
+    @media screen and (min-width: 960px){
+        .beijing{
+            background: #000;
+            color: #ffffff;
+            margin-top: 40px;
+        }
+    }
+
+    h1
+    {
+        text-shadow: 2px 2px #ff0000;
     }
 </style>

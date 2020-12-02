@@ -18,7 +18,7 @@ import daochuExcle from "../views/daochuExcle";
 
 Vue.use(VueRouter)
 
-  const routes = [
+ export const asyncRouterMap = [
     {
       path: '/tuozhuai',
       name: 'tuozhuai',
@@ -106,7 +106,7 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  routes
+  routes : asyncRouterMap
 })
 
 router.beforeEach((to, from, next) => {
