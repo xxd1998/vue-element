@@ -4,7 +4,7 @@ module.exports = {
         proxy: {
             '/api': {
                 // 目标 API 地址
-                target: 'https://open.rech8.com/api',
+                target: 'http://rec-mp-api.tskedu.com/api',
                 changeOrigin: true,
                 secure: false,
                 pathRewrite: {

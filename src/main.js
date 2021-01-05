@@ -21,6 +21,16 @@ import store from './store/index'
 import md5 from 'js-md5'  //引入
 Vue.prototype.$md5 = md5;  //定义全局变量
 Vue.use(mavonEditor)
+import VueVaptcha from 'vue-vaptcha'
+const options = {
+    VID: "5fd0b1595bb14063462b1169",
+    KEY: "3004b1528269476d991d52671c1a373a",
+    type: 'click',
+    color: '#8c00ff',
+    style: 'light',
+    lang: 'en'
+}
+Vue.use(VueVaptcha(options))
 const i18n = new VueI18n({
   locale: localStorage.getItem('locale') || 'zh',
   messages: {

@@ -312,7 +312,7 @@
             submit(){
                 var _this = this;
                 this.loading = true;
-                this.$http.get("/api/v1/mch/plan"+"?"+"currencyType"+"="+this.currencyType).then(res=>{
+                this.$http.get("/api/v1/sys/plan"+"?"+"currencyType"+"="+this.currencyType).then(res=>{
                     _this.allData = res.data.data;
                     _this.allData.forEach(function (a) {
                             a.firstShow = false;

@@ -98,6 +98,7 @@
                }
            },
            datadragEnd (evt) {
+               console.log(evt)
                console.log(this.list);
            },
            onCopy(){
@@ -161,7 +162,7 @@
     }
 
 
-    @media screen and (min-width: 960px){
+     screen and (min-width: 960px){
         .beijing{
             background: #000;
             color: #ffffff;

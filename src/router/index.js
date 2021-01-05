@@ -15,15 +15,26 @@ import showPackage from "../views/showPackage"
 import priceList from "../views/priceList"
 import tuozhuai from "../views/tuozhuai";
 import daochuExcle from "../views/daochuExcle";
+import jump from "../views/jump";
 
 Vue.use(VueRouter)
 
  export const asyncRouterMap = [
     {
-      path: '/tuozhuai',
-      name: 'tuozhuai',
-      component: tuozhuai,
+      path: '/jump',
+      name: 'jump',
+      component: jump,
     },
+   {
+     path: '/tuozhuai',
+     name: 'tuozhuai',
+     component: tuozhuai,
+   },
+   {
+     path: '/login',
+     name: 'login',
+     component: login,
+   },
     {
       path: '/daochuExcle',
       name: 'daochuExcle',
@@ -43,7 +54,6 @@ Vue.use(VueRouter)
       path: '/showPackage',
       name: 'showPackage',
       component: showPackage,
-      meta: { requireAuth: true },
     },
   {
     path: 'selectPhnoe',
